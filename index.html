@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>Initial File</h1>
+
+        <title>Vega Lite Simple Bar Chart</title>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
     </head>
     <body>
-        <p>This is the index file of the new Repository, FIT3179</p>
+        <p>This is a simple visualization as a sample.</p>
+        <div id="vis"></div>
+
+        <script type="text/javascript">
+            var spec = "https://JeyvanVD.github.io/FIT3179/visualization.vl.json";
+            vegaEmbed('#vis', spec).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+        </script>
     </body>
 </html>
