@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Vega Lite Simple Bar Chart</title>
+        <title>Vizualisation 2 : Maps</title>
 
 
         <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -11,10 +11,10 @@
 
     </head>
     <body>
-        <p>This is a simple visualization as a sample.</p>
+        <p>This shows the cost of living index with respect to the cost of living in Lost Angeles, California, USA for each countries all around the globe.</p>
         <div id="vis"></div>
         <script type="text/javascript">
-            var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/visualization.vl.json";
+            var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/cost_of_living_index.vl.json";
             vegaEmbed('#vis', spec).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
