@@ -17,12 +17,27 @@
         <h1 id="title" style="text-align: center; font-size: 64px; font-family: 'Lucida Sans';">
             How EXPENSIVE is YOUR COUNTRY?
         </h1>
-        <div id="vis" style="left: 80px; top: 5px;"></div>
+        <p id="caption_title" style="text-align: center;">
+            Try to look for your country and look at how expensive your country is!
+        </p>
+        <div id="vis" style="left: 130px; top: 5px;"></div>
+        <p id="bubble_titlel" style="text-align: center;">
+            Now what about the condition between your groceries price and purchasing power?
+        </p>
+        <div id="bubble1"></div>
+
+
         <script type="text/javascript">
             var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/cost_of_living_index.vl.json";
+            var bubble_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble.vl.json";
             vegaEmbed('#vis', spec).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
+            vegaEmbed('#bubble1', spec).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
         </script>
+
+
     </body>
 </html>
