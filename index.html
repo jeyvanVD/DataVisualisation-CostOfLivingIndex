@@ -14,8 +14,10 @@
 
     </head>
     <body>
-        <p>This shows the cost of living index with respect to the cost of living in Lost Angeles, California, USA for each countries all around the globe.</p>
-        <div id="vis"></div>
+        <h1 id="title" style="text-align: center; font-size: 64px; margin-top: -5px;">
+            How EXPENSIVE is YOUR COUNTRY?
+        </h1>
+        <div id="vis" style="left: 125px; top: 5px;"></div>
         <script type="text/javascript">
             var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/cost_of_living_index.vl.json";
             vegaEmbed('#vis', spec).then(function(result) {
