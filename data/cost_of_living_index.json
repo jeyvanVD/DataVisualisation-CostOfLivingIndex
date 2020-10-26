@@ -1,0 +1,1322 @@
+[
+  {
+    "Country": "Afghanistan",
+    "Cost_of_Living_Index": 24.24,
+    "Rent_Index": 4.03,
+    "Cost_of_Living_Plus_Rent_Index": 14.58,
+    "Groceries_Index": 17.7,
+    "Restaurant_Price_Index": 17.38,
+    "Local_Purchasing_Power_Index": 28.2,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Albania",
+    "Cost_of_Living_Index": 36.39,
+    "Rent_Index": 8.55,
+    "Cost_of_Living_Plus_Rent_Index": 23.07,
+    "Groceries_Index": 28.39,
+    "Restaurant_Price_Index": 26.75,
+    "Local_Purchasing_Power_Index": 29.56,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Algeria",
+    "Cost_of_Living_Index": 30.1,
+    "Rent_Index": 5.34,
+    "Cost_of_Living_Plus_Rent_Index": 18.26,
+    "Groceries_Index": 30.71,
+    "Restaurant_Price_Index": 15.89,
+    "Local_Purchasing_Power_Index": 28.69,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Argentina",
+    "Cost_of_Living_Index": 32.95,
+    "Rent_Index": 8.33,
+    "Cost_of_Living_Plus_Rent_Index": 21.17,
+    "Groceries_Index": 25.82,
+    "Restaurant_Price_Index": 30.52,
+    "Local_Purchasing_Power_Index": 47.22,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Armenia",
+    "Cost_of_Living_Index": 32.84,
+    "Rent_Index": 10.91,
+    "Cost_of_Living_Plus_Rent_Index": 22.35,
+    "Groceries_Index": 25.61,
+    "Restaurant_Price_Index": 30.43,
+    "Local_Purchasing_Power_Index": 28,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Australia",
+    "Cost_of_Living_Index": 73.54,
+    "Rent_Index": 34.86,
+    "Cost_of_Living_Plus_Rent_Index": 55.04,
+    "Groceries_Index": 67.23,
+    "Restaurant_Price_Index": 70.32,
+    "Local_Purchasing_Power_Index": 107.31,
+    "Continent": "Oceania"
+  },
+  {
+    "Country": "Austria",
+    "Cost_of_Living_Index": 70.38,
+    "Rent_Index": 26.81,
+    "Cost_of_Living_Plus_Rent_Index": 49.54,
+    "Groceries_Index": 61.73,
+    "Restaurant_Price_Index": 68.09,
+    "Local_Purchasing_Power_Index": 82.38,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Azerbaijan",
+    "Cost_of_Living_Index": 29.92,
+    "Rent_Index": 9.48,
+    "Cost_of_Living_Plus_Rent_Index": 20.15,
+    "Groceries_Index": 23.74,
+    "Restaurant_Price_Index": 30.36,
+    "Local_Purchasing_Power_Index": 30.2,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Bahamas",
+    "Cost_of_Living_Index": 82.51,
+    "Rent_Index": 36.36,
+    "Cost_of_Living_Plus_Rent_Index": 60.43,
+    "Groceries_Index": 62.65,
+    "Restaurant_Price_Index": 83.66,
+    "Local_Purchasing_Power_Index": 54.18,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Bahrain",
+    "Cost_of_Living_Index": 58.94,
+    "Rent_Index": 30.95,
+    "Cost_of_Living_Plus_Rent_Index": 45.55,
+    "Groceries_Index": 48.11,
+    "Restaurant_Price_Index": 54.55,
+    "Local_Purchasing_Power_Index": 57.88,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Bangladesh",
+    "Cost_of_Living_Index": 32.25,
+    "Rent_Index": 5.01,
+    "Cost_of_Living_Plus_Rent_Index": 19.22,
+    "Groceries_Index": 29.72,
+    "Restaurant_Price_Index": 19.21,
+    "Local_Purchasing_Power_Index": 33.21,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Barbados",
+    "Cost_of_Living_Index": 76.02,
+    "Rent_Index": 19.7,
+    "Cost_of_Living_Plus_Rent_Index": 49.08,
+    "Groceries_Index": 65.2,
+    "Restaurant_Price_Index": 68.14,
+    "Local_Purchasing_Power_Index": 51.1,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Belarus",
+    "Cost_of_Living_Index": 34.7,
+    "Rent_Index": 10.5,
+    "Cost_of_Living_Plus_Rent_Index": 23.13,
+    "Groceries_Index": 28.06,
+    "Restaurant_Price_Index": 38.94,
+    "Local_Purchasing_Power_Index": 37,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Belgium",
+    "Cost_of_Living_Index": 71.78,
+    "Rent_Index": 25.43,
+    "Cost_of_Living_Plus_Rent_Index": 49.61,
+    "Groceries_Index": 58.66,
+    "Restaurant_Price_Index": 80.14,
+    "Local_Purchasing_Power_Index": 86.28,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Belize",
+    "Cost_of_Living_Index": 49.23,
+    "Rent_Index": 9.74,
+    "Cost_of_Living_Plus_Rent_Index": 30.34,
+    "Groceries_Index": 41.89,
+    "Restaurant_Price_Index": 37.05,
+    "Local_Purchasing_Power_Index": 57.53,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Bolivia",
+    "Cost_of_Living_Index": 34.56,
+    "Rent_Index": 10.93,
+    "Cost_of_Living_Plus_Rent_Index": 23.26,
+    "Groceries_Index": 28.09,
+    "Restaurant_Price_Index": 25.11,
+    "Local_Purchasing_Power_Index": 39.34,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Bosnia And Herzegovina",
+    "Cost_of_Living_Index": 35.97,
+    "Rent_Index": 6.72,
+    "Cost_of_Living_Plus_Rent_Index": 21.97,
+    "Groceries_Index": 28.08,
+    "Restaurant_Price_Index": 25.1,
+    "Local_Purchasing_Power_Index": 41.83,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Botswana",
+    "Cost_of_Living_Index": 39.13,
+    "Rent_Index": 11.12,
+    "Cost_of_Living_Plus_Rent_Index": 25.73,
+    "Groceries_Index": 31.74,
+    "Restaurant_Price_Index": 39.98,
+    "Local_Purchasing_Power_Index": 58.1,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Brazil",
+    "Cost_of_Living_Index": 40.22,
+    "Rent_Index": 10.65,
+    "Cost_of_Living_Plus_Rent_Index": 26.08,
+    "Groceries_Index": 29.2,
+    "Restaurant_Price_Index": 30.78,
+    "Local_Purchasing_Power_Index": 32.81,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Brunei",
+    "Cost_of_Living_Index": 44.71,
+    "Rent_Index": 23.08,
+    "Cost_of_Living_Plus_Rent_Index": 34.36,
+    "Groceries_Index": 37.11,
+    "Restaurant_Price_Index": 38.06,
+    "Local_Purchasing_Power_Index": 86.95,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Bulgaria",
+    "Cost_of_Living_Index": 36.7,
+    "Rent_Index": 9.64,
+    "Cost_of_Living_Plus_Rent_Index": 23.75,
+    "Groceries_Index": 30.09,
+    "Restaurant_Price_Index": 29.14,
+    "Local_Purchasing_Power_Index": 49.37,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Cambodia",
+    "Cost_of_Living_Index": 47.49,
+    "Rent_Index": 14.9,
+    "Cost_of_Living_Plus_Rent_Index": 31.9,
+    "Groceries_Index": 44.56,
+    "Restaurant_Price_Index": 25.19,
+    "Local_Purchasing_Power_Index": 11.29,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Canada",
+    "Cost_of_Living_Index": 67.62,
+    "Rent_Index": 30.73,
+    "Cost_of_Living_Plus_Rent_Index": 49.98,
+    "Groceries_Index": 63.68,
+    "Restaurant_Price_Index": 63.53,
+    "Local_Purchasing_Power_Index": 95.09,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Chile",
+    "Cost_of_Living_Index": 43.62,
+    "Rent_Index": 13.39,
+    "Cost_of_Living_Plus_Rent_Index": 29.16,
+    "Groceries_Index": 36.45,
+    "Restaurant_Price_Index": 41.57,
+    "Local_Purchasing_Power_Index": 42.5,
+    "Continent": "South America"
+  },
+  {
+    "Country": "China",
+    "Cost_of_Living_Index": 40.04,
+    "Rent_Index": 16.38,
+    "Cost_of_Living_Plus_Rent_Index": 28.72,
+    "Groceries_Index": 40.37,
+    "Restaurant_Price_Index": 29.16,
+    "Local_Purchasing_Power_Index": 60.88,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Colombia",
+    "Cost_of_Living_Index": 30.66,
+    "Rent_Index": 9.58,
+    "Cost_of_Living_Plus_Rent_Index": 20.58,
+    "Groceries_Index": 25.05,
+    "Restaurant_Price_Index": 22.44,
+    "Local_Purchasing_Power_Index": 31.12,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Costa Rica",
+    "Cost_of_Living_Index": 53.98,
+    "Rent_Index": 15.55,
+    "Cost_of_Living_Plus_Rent_Index": 35.6,
+    "Groceries_Index": 49.6,
+    "Restaurant_Price_Index": 43.51,
+    "Local_Purchasing_Power_Index": 42.61,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Croatia",
+    "Cost_of_Living_Index": 49.7,
+    "Rent_Index": 13.5,
+    "Cost_of_Living_Plus_Rent_Index": 32.38,
+    "Groceries_Index": 39.9,
+    "Restaurant_Price_Index": 42.44,
+    "Local_Purchasing_Power_Index": 50.42,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Cuba",
+    "Cost_of_Living_Index": 43.46,
+    "Rent_Index": 4.84,
+    "Cost_of_Living_Plus_Rent_Index": 24.99,
+    "Groceries_Index": 37.4,
+    "Restaurant_Price_Index": 30.95,
+    "Local_Purchasing_Power_Index": 2.18,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Cyprus",
+    "Cost_of_Living_Index": 57.93,
+    "Rent_Index": 20.54,
+    "Cost_of_Living_Plus_Rent_Index": 40.05,
+    "Groceries_Index": 44.21,
+    "Restaurant_Price_Index": 63.11,
+    "Local_Purchasing_Power_Index": 57.41,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Czech Republic",
+    "Cost_of_Living_Index": 46.15,
+    "Rent_Index": 19.56,
+    "Cost_of_Living_Plus_Rent_Index": 33.43,
+    "Groceries_Index": 38.13,
+    "Restaurant_Price_Index": 34.1,
+    "Local_Purchasing_Power_Index": 62.82,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Denmark",
+    "Cost_of_Living_Index": 83,
+    "Rent_Index": 31.92,
+    "Cost_of_Living_Plus_Rent_Index": 58.57,
+    "Groceries_Index": 61.74,
+    "Restaurant_Price_Index": 100.75,
+    "Local_Purchasing_Power_Index": 100.88,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Dominican Republic",
+    "Cost_of_Living_Index": 44.06,
+    "Rent_Index": 10.62,
+    "Cost_of_Living_Plus_Rent_Index": 28.06,
+    "Groceries_Index": 35.93,
+    "Restaurant_Price_Index": 38.27,
+    "Local_Purchasing_Power_Index": 23.95,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Ecuador",
+    "Cost_of_Living_Index": 40.98,
+    "Rent_Index": 11.96,
+    "Cost_of_Living_Plus_Rent_Index": 27.1,
+    "Groceries_Index": 35.46,
+    "Restaurant_Price_Index": 30.66,
+    "Local_Purchasing_Power_Index": 36.08,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Egypt",
+    "Cost_of_Living_Index": 29.54,
+    "Rent_Index": 5.49,
+    "Cost_of_Living_Plus_Rent_Index": 18.04,
+    "Groceries_Index": 25.5,
+    "Restaurant_Price_Index": 23.53,
+    "Local_Purchasing_Power_Index": 22.41,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "El Salvador",
+    "Cost_of_Living_Index": 45.57,
+    "Rent_Index": 13.48,
+    "Cost_of_Living_Plus_Rent_Index": 30.22,
+    "Groceries_Index": 43.67,
+    "Restaurant_Price_Index": 34.8,
+    "Local_Purchasing_Power_Index": 24.71,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Estonia",
+    "Cost_of_Living_Index": 50.93,
+    "Rent_Index": 15.41,
+    "Cost_of_Living_Plus_Rent_Index": 33.94,
+    "Groceries_Index": 36.57,
+    "Restaurant_Price_Index": 52.94,
+    "Local_Purchasing_Power_Index": 71.3,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Ethiopia",
+    "Cost_of_Living_Index": 54.39,
+    "Rent_Index": 20.9,
+    "Cost_of_Living_Plus_Rent_Index": 38.37,
+    "Groceries_Index": 36.3,
+    "Restaurant_Price_Index": 19.37,
+    "Local_Purchasing_Power_Index": 8.34,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Fiji",
+    "Cost_of_Living_Index": 47.48,
+    "Rent_Index": 18.55,
+    "Cost_of_Living_Plus_Rent_Index": 33.64,
+    "Groceries_Index": 52.67,
+    "Restaurant_Price_Index": 35.87,
+    "Local_Purchasing_Power_Index": 33.17,
+    "Continent": "Oceania"
+  },
+  {
+    "Country": "Finland",
+    "Cost_of_Living_Index": 70.29,
+    "Rent_Index": 26.16,
+    "Cost_of_Living_Plus_Rent_Index": 49.18,
+    "Groceries_Index": 56.52,
+    "Restaurant_Price_Index": 76.81,
+    "Local_Purchasing_Power_Index": 99.93,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "France",
+    "Cost_of_Living_Index": 74.14,
+    "Rent_Index": 25.39,
+    "Cost_of_Living_Plus_Rent_Index": 50.82,
+    "Groceries_Index": 67.9,
+    "Restaurant_Price_Index": 72.54,
+    "Local_Purchasing_Power_Index": 80.36,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Georgia",
+    "Cost_of_Living_Index": 28.48,
+    "Rent_Index": 9.8,
+    "Cost_of_Living_Plus_Rent_Index": 19.54,
+    "Groceries_Index": 23.05,
+    "Restaurant_Price_Index": 26.66,
+    "Local_Purchasing_Power_Index": 24.88,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Germany",
+    "Cost_of_Living_Index": 65.26,
+    "Rent_Index": 27.06,
+    "Cost_of_Living_Plus_Rent_Index": 46.99,
+    "Groceries_Index": 49.23,
+    "Restaurant_Price_Index": 61.58,
+    "Local_Purchasing_Power_Index": 102.36,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Ghana",
+    "Cost_of_Living_Index": 37.65,
+    "Rent_Index": 19.41,
+    "Cost_of_Living_Plus_Rent_Index": 28.93,
+    "Groceries_Index": 37.17,
+    "Restaurant_Price_Index": 26.59,
+    "Local_Purchasing_Power_Index": 14.66,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Greece",
+    "Cost_of_Living_Index": 55.67,
+    "Rent_Index": 11.68,
+    "Cost_of_Living_Plus_Rent_Index": 34.62,
+    "Groceries_Index": 41.63,
+    "Restaurant_Price_Index": 53.74,
+    "Local_Purchasing_Power_Index": 43.68,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Guatemala",
+    "Cost_of_Living_Index": 42.7,
+    "Rent_Index": 15.29,
+    "Cost_of_Living_Plus_Rent_Index": 29.59,
+    "Groceries_Index": 37.41,
+    "Restaurant_Price_Index": 33,
+    "Local_Purchasing_Power_Index": 39.83,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Honduras",
+    "Cost_of_Living_Index": 42.17,
+    "Rent_Index": 10.6,
+    "Cost_of_Living_Plus_Rent_Index": 27.07,
+    "Groceries_Index": 33.33,
+    "Restaurant_Price_Index": 30.55,
+    "Local_Purchasing_Power_Index": 30.26,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Hong Kong",
+    "Cost_of_Living_Index": 77.22,
+    "Rent_Index": 79.57,
+    "Cost_of_Living_Plus_Rent_Index": 78.35,
+    "Groceries_Index": 75.94,
+    "Restaurant_Price_Index": 54.36,
+    "Local_Purchasing_Power_Index": 65.32,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Hungary",
+    "Cost_of_Living_Index": 40.85,
+    "Rent_Index": 13.97,
+    "Cost_of_Living_Plus_Rent_Index": 27.99,
+    "Groceries_Index": 30.77,
+    "Restaurant_Price_Index": 34.46,
+    "Local_Purchasing_Power_Index": 47.55,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Iceland",
+    "Cost_of_Living_Index": 100.48,
+    "Rent_Index": 46.95,
+    "Cost_of_Living_Plus_Rent_Index": 74.88,
+    "Groceries_Index": 86.89,
+    "Restaurant_Price_Index": 113.74,
+    "Local_Purchasing_Power_Index": 79.44,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "India",
+    "Cost_of_Living_Index": 24.58,
+    "Rent_Index": 5.68,
+    "Cost_of_Living_Plus_Rent_Index": 15.54,
+    "Groceries_Index": 24.55,
+    "Restaurant_Price_Index": 17.17,
+    "Local_Purchasing_Power_Index": 54.3,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Indonesia",
+    "Cost_of_Living_Index": 37.27,
+    "Rent_Index": 10.62,
+    "Cost_of_Living_Plus_Rent_Index": 24.52,
+    "Groceries_Index": 37.36,
+    "Restaurant_Price_Index": 18.25,
+    "Local_Purchasing_Power_Index": 25.05,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Iran",
+    "Cost_of_Living_Index": 39.01,
+    "Rent_Index": 14.48,
+    "Cost_of_Living_Plus_Rent_Index": 27.28,
+    "Groceries_Index": 35.54,
+    "Restaurant_Price_Index": 25.12,
+    "Local_Purchasing_Power_Index": 22.69,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Iraq",
+    "Cost_of_Living_Index": 39.04,
+    "Rent_Index": 11.28,
+    "Cost_of_Living_Plus_Rent_Index": 25.76,
+    "Groceries_Index": 31.85,
+    "Restaurant_Price_Index": 32.72,
+    "Local_Purchasing_Power_Index": 42.43,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Ireland",
+    "Cost_of_Living_Index": 75.91,
+    "Rent_Index": 43.88,
+    "Cost_of_Living_Plus_Rent_Index": 60.59,
+    "Groceries_Index": 58.35,
+    "Restaurant_Price_Index": 81.24,
+    "Local_Purchasing_Power_Index": 80.88,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Israel",
+    "Cost_of_Living_Index": 81.15,
+    "Rent_Index": 31.33,
+    "Cost_of_Living_Plus_Rent_Index": 57.32,
+    "Groceries_Index": 66.31,
+    "Restaurant_Price_Index": 88.65,
+    "Local_Purchasing_Power_Index": 78.09,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Italy",
+    "Cost_of_Living_Index": 67.26,
+    "Rent_Index": 21.22,
+    "Cost_of_Living_Plus_Rent_Index": 45.24,
+    "Groceries_Index": 55.44,
+    "Restaurant_Price_Index": 72.32,
+    "Local_Purchasing_Power_Index": 65.59,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Jamaica",
+    "Cost_of_Living_Index": 57.82,
+    "Rent_Index": 15.25,
+    "Cost_of_Living_Plus_Rent_Index": 37.46,
+    "Groceries_Index": 58.96,
+    "Restaurant_Price_Index": 38.12,
+    "Local_Purchasing_Power_Index": 32.37,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Japan",
+    "Cost_of_Living_Index": 83.35,
+    "Rent_Index": 25.97,
+    "Cost_of_Living_Plus_Rent_Index": 55.9,
+    "Groceries_Index": 81.82,
+    "Restaurant_Price_Index": 48.95,
+    "Local_Purchasing_Power_Index": 87.28,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Jordan",
+    "Cost_of_Living_Index": 53.67,
+    "Rent_Index": 11.54,
+    "Cost_of_Living_Plus_Rent_Index": 33.52,
+    "Groceries_Index": 43.32,
+    "Restaurant_Price_Index": 47.12,
+    "Local_Purchasing_Power_Index": 34.88,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Kazakhstan",
+    "Cost_of_Living_Index": 30.64,
+    "Rent_Index": 9.78,
+    "Cost_of_Living_Plus_Rent_Index": 20.66,
+    "Groceries_Index": 24.31,
+    "Restaurant_Price_Index": 29.87,
+    "Local_Purchasing_Power_Index": 38.36,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Kenya",
+    "Cost_of_Living_Index": 40.21,
+    "Rent_Index": 10.73,
+    "Cost_of_Living_Plus_Rent_Index": 26.11,
+    "Groceries_Index": 35.35,
+    "Restaurant_Price_Index": 35.06,
+    "Local_Purchasing_Power_Index": 27.32,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Kosovo",
+    "Cost_of_Living_Index": 28.47,
+    "Rent_Index": 8.47,
+    "Cost_of_Living_Plus_Rent_Index": 18.91,
+    "Groceries_Index": 26.53,
+    "Restaurant_Price_Index": 21.04,
+    "Local_Purchasing_Power_Index": 48.9,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Kuwait",
+    "Cost_of_Living_Index": 50.37,
+    "Rent_Index": 31.21,
+    "Cost_of_Living_Plus_Rent_Index": 41.21,
+    "Groceries_Index": 34.68,
+    "Restaurant_Price_Index": 47.08,
+    "Local_Purchasing_Power_Index": 85.59,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Cost_of_Living_Index": 26.97,
+    "Rent_Index": 9.18,
+    "Cost_of_Living_Plus_Rent_Index": 18.46,
+    "Groceries_Index": 23.39,
+    "Restaurant_Price_Index": 21.45,
+    "Local_Purchasing_Power_Index": 24.98,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Latvia",
+    "Cost_of_Living_Index": 47.94,
+    "Rent_Index": 12.34,
+    "Cost_of_Living_Plus_Rent_Index": 30.91,
+    "Groceries_Index": 34.85,
+    "Restaurant_Price_Index": 42.88,
+    "Local_Purchasing_Power_Index": 52.48,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Lebanon",
+    "Cost_of_Living_Index": 60.5,
+    "Rent_Index": 24.54,
+    "Cost_of_Living_Plus_Rent_Index": 43.3,
+    "Groceries_Index": 43.92,
+    "Restaurant_Price_Index": 58.16,
+    "Local_Purchasing_Power_Index": 44.47,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Lithuania",
+    "Cost_of_Living_Index": 44.28,
+    "Rent_Index": 13.65,
+    "Cost_of_Living_Plus_Rent_Index": 29.63,
+    "Groceries_Index": 33.63,
+    "Restaurant_Price_Index": 42.7,
+    "Local_Purchasing_Power_Index": 57.85,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Luxembourg",
+    "Cost_of_Living_Index": 81.89,
+    "Rent_Index": 54.92,
+    "Cost_of_Living_Plus_Rent_Index": 68.99,
+    "Groceries_Index": 69.1,
+    "Restaurant_Price_Index": 89.85,
+    "Local_Purchasing_Power_Index": 103.92,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Macao",
+    "Cost_of_Living_Index": 64.84,
+    "Rent_Index": 43.98,
+    "Cost_of_Living_Plus_Rent_Index": 54.87,
+    "Groceries_Index": 62,
+    "Restaurant_Price_Index": 43.37,
+    "Local_Purchasing_Power_Index": 80.9,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Malaysia",
+    "Cost_of_Living_Index": 39.12,
+    "Rent_Index": 11,
+    "Cost_of_Living_Plus_Rent_Index": 25.67,
+    "Groceries_Index": 37.58,
+    "Restaurant_Price_Index": 22.94,
+    "Local_Purchasing_Power_Index": 64.49,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Malta",
+    "Cost_of_Living_Index": 67.46,
+    "Rent_Index": 31.04,
+    "Cost_of_Living_Plus_Rent_Index": 50.04,
+    "Groceries_Index": 54.9,
+    "Restaurant_Price_Index": 75.94,
+    "Local_Purchasing_Power_Index": 46.32,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Mauritius",
+    "Cost_of_Living_Index": 53.04,
+    "Rent_Index": 11.99,
+    "Cost_of_Living_Plus_Rent_Index": 33.41,
+    "Groceries_Index": 48.94,
+    "Restaurant_Price_Index": 43.96,
+    "Local_Purchasing_Power_Index": 30.88,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Mexico",
+    "Cost_of_Living_Index": 35.72,
+    "Rent_Index": 11.46,
+    "Cost_of_Living_Plus_Rent_Index": 24.11,
+    "Groceries_Index": 32.39,
+    "Restaurant_Price_Index": 32.12,
+    "Local_Purchasing_Power_Index": 41.81,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Moldova",
+    "Cost_of_Living_Index": 33.7,
+    "Rent_Index": 8.4,
+    "Cost_of_Living_Plus_Rent_Index": 21.6,
+    "Groceries_Index": 25.96,
+    "Restaurant_Price_Index": 27.79,
+    "Local_Purchasing_Power_Index": 27.57,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Montenegro",
+    "Cost_of_Living_Index": 38.23,
+    "Rent_Index": 10.38,
+    "Cost_of_Living_Plus_Rent_Index": 24.91,
+    "Groceries_Index": 28.63,
+    "Restaurant_Price_Index": 33.16,
+    "Local_Purchasing_Power_Index": 39.8,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Morocco",
+    "Cost_of_Living_Index": 34.32,
+    "Rent_Index": 8.94,
+    "Cost_of_Living_Plus_Rent_Index": 22.18,
+    "Groceries_Index": 30.11,
+    "Restaurant_Price_Index": 24.5,
+    "Local_Purchasing_Power_Index": 35.25,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Myanmar",
+    "Cost_of_Living_Index": 42.11,
+    "Rent_Index": 23.78,
+    "Cost_of_Living_Plus_Rent_Index": 33.35,
+    "Groceries_Index": 44.68,
+    "Restaurant_Price_Index": 19.04,
+    "Local_Purchasing_Power_Index": 10.22,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Namibia",
+    "Cost_of_Living_Index": 43.1,
+    "Rent_Index": 16.12,
+    "Cost_of_Living_Plus_Rent_Index": 30.19,
+    "Groceries_Index": 36.8,
+    "Restaurant_Price_Index": 39.22,
+    "Local_Purchasing_Power_Index": 55.65,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Nepal",
+    "Cost_of_Living_Index": 29.05,
+    "Rent_Index": 4.77,
+    "Cost_of_Living_Plus_Rent_Index": 17.44,
+    "Groceries_Index": 24.91,
+    "Restaurant_Price_Index": 20.36,
+    "Local_Purchasing_Power_Index": 21.9,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Netherlands",
+    "Cost_of_Living_Index": 73.75,
+    "Rent_Index": 35.18,
+    "Cost_of_Living_Plus_Rent_Index": 55.3,
+    "Groceries_Index": 55.87,
+    "Restaurant_Price_Index": 80.48,
+    "Local_Purchasing_Power_Index": 90.73,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "New Zealand",
+    "Cost_of_Living_Index": 72.53,
+    "Rent_Index": 32.09,
+    "Cost_of_Living_Plus_Rent_Index": 53.19,
+    "Groceries_Index": 64.69,
+    "Restaurant_Price_Index": 68.8,
+    "Local_Purchasing_Power_Index": 92.66,
+    "Continent": "Oceania"
+  },
+  {
+    "Country": "Nicaragua",
+    "Cost_of_Living_Index": 44.56,
+    "Rent_Index": 7.61,
+    "Cost_of_Living_Plus_Rent_Index": 26.88,
+    "Groceries_Index": 41.71,
+    "Restaurant_Price_Index": 31.41,
+    "Local_Purchasing_Power_Index": 23.92,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Nigeria",
+    "Cost_of_Living_Index": 31,
+    "Rent_Index": 23.59,
+    "Cost_of_Living_Plus_Rent_Index": 27.45,
+    "Groceries_Index": 31.15,
+    "Restaurant_Price_Index": 17.71,
+    "Local_Purchasing_Power_Index": 13.52,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "North Macedonia",
+    "Cost_of_Living_Index": 31.59,
+    "Rent_Index": 6.49,
+    "Cost_of_Living_Plus_Rent_Index": 19.58,
+    "Groceries_Index": 24.94,
+    "Restaurant_Price_Index": 23.31,
+    "Local_Purchasing_Power_Index": 37.15,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Norway",
+    "Cost_of_Living_Index": 101.43,
+    "Rent_Index": 36.15,
+    "Cost_of_Living_Plus_Rent_Index": 70.21,
+    "Groceries_Index": 91.14,
+    "Restaurant_Price_Index": 109.28,
+    "Local_Purchasing_Power_Index": 88.38,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Oman",
+    "Cost_of_Living_Index": 49.28,
+    "Rent_Index": 17.98,
+    "Cost_of_Living_Plus_Rent_Index": 34.31,
+    "Groceries_Index": 43.5,
+    "Restaurant_Price_Index": 44.26,
+    "Local_Purchasing_Power_Index": 80.97,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Pakistan",
+    "Cost_of_Living_Index": 21.98,
+    "Rent_Index": 4.59,
+    "Cost_of_Living_Plus_Rent_Index": 13.66,
+    "Groceries_Index": 19.08,
+    "Restaurant_Price_Index": 16.78,
+    "Local_Purchasing_Power_Index": 30.57,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Palestine",
+    "Cost_of_Living_Index": 54.54,
+    "Rent_Index": 8.83,
+    "Cost_of_Living_Plus_Rent_Index": 32.68,
+    "Groceries_Index": 46.67,
+    "Restaurant_Price_Index": 38.93,
+    "Local_Purchasing_Power_Index": 46.91,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Panama",
+    "Cost_of_Living_Index": 54.16,
+    "Rent_Index": 24.76,
+    "Cost_of_Living_Plus_Rent_Index": 40.09,
+    "Groceries_Index": 53.03,
+    "Restaurant_Price_Index": 47.27,
+    "Local_Purchasing_Power_Index": 34.23,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Paraguay",
+    "Cost_of_Living_Index": 31.1,
+    "Rent_Index": 9.66,
+    "Cost_of_Living_Plus_Rent_Index": 20.85,
+    "Groceries_Index": 25.03,
+    "Restaurant_Price_Index": 25.01,
+    "Local_Purchasing_Power_Index": 32.6,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Peru",
+    "Cost_of_Living_Index": 38.65,
+    "Rent_Index": 12.78,
+    "Cost_of_Living_Plus_Rent_Index": 26.28,
+    "Groceries_Index": 33.8,
+    "Restaurant_Price_Index": 24.69,
+    "Local_Purchasing_Power_Index": 33.95,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Philippines",
+    "Cost_of_Living_Index": 37.63,
+    "Rent_Index": 9,
+    "Cost_of_Living_Plus_Rent_Index": 23.94,
+    "Groceries_Index": 33.46,
+    "Restaurant_Price_Index": 20.84,
+    "Local_Purchasing_Power_Index": 23.48,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Poland",
+    "Cost_of_Living_Index": 40.04,
+    "Rent_Index": 15.67,
+    "Cost_of_Living_Plus_Rent_Index": 28.38,
+    "Groceries_Index": 30.55,
+    "Restaurant_Price_Index": 33.45,
+    "Local_Purchasing_Power_Index": 59.61,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Portugal",
+    "Cost_of_Living_Index": 49.52,
+    "Rent_Index": 21.81,
+    "Cost_of_Living_Plus_Rent_Index": 36.27,
+    "Groceries_Index": 38.14,
+    "Restaurant_Price_Index": 42.48,
+    "Local_Purchasing_Power_Index": 49.43,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Puerto Rico",
+    "Cost_of_Living_Index": 67.54,
+    "Rent_Index": 19.29,
+    "Cost_of_Living_Plus_Rent_Index": 44.46,
+    "Groceries_Index": 65.76,
+    "Restaurant_Price_Index": 58.68,
+    "Local_Purchasing_Power_Index": 79.38,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Qatar",
+    "Cost_of_Living_Index": 64.04,
+    "Rent_Index": 47.44,
+    "Cost_of_Living_Plus_Rent_Index": 56.1,
+    "Groceries_Index": 53.61,
+    "Restaurant_Price_Index": 66.83,
+    "Local_Purchasing_Power_Index": 111.69,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Romania",
+    "Cost_of_Living_Index": 35.31,
+    "Rent_Index": 10.05,
+    "Cost_of_Living_Plus_Rent_Index": 23.22,
+    "Groceries_Index": 29.03,
+    "Restaurant_Price_Index": 30.5,
+    "Local_Purchasing_Power_Index": 48.86,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Russia",
+    "Cost_of_Living_Index": 39.21,
+    "Rent_Index": 11.36,
+    "Cost_of_Living_Plus_Rent_Index": 25.89,
+    "Groceries_Index": 31.08,
+    "Restaurant_Price_Index": 39.61,
+    "Local_Purchasing_Power_Index": 38.94,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Rwanda",
+    "Cost_of_Living_Index": 33.35,
+    "Rent_Index": 11.88,
+    "Cost_of_Living_Plus_Rent_Index": 23.08,
+    "Groceries_Index": 26.83,
+    "Restaurant_Price_Index": 29.17,
+    "Local_Purchasing_Power_Index": 19.32,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Cost_of_Living_Index": 48.34,
+    "Rent_Index": 11.39,
+    "Cost_of_Living_Plus_Rent_Index": 30.67,
+    "Groceries_Index": 37.89,
+    "Restaurant_Price_Index": 33.51,
+    "Local_Purchasing_Power_Index": 100,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Serbia",
+    "Cost_of_Living_Index": 35.72,
+    "Rent_Index": 9.08,
+    "Cost_of_Living_Plus_Rent_Index": 22.98,
+    "Groceries_Index": 25.46,
+    "Restaurant_Price_Index": 28.63,
+    "Local_Purchasing_Power_Index": 36.72,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Seychelles",
+    "Cost_of_Living_Index": 71.59,
+    "Rent_Index": 32.34,
+    "Cost_of_Living_Plus_Rent_Index": 52.81,
+    "Groceries_Index": 64.61,
+    "Restaurant_Price_Index": 84.86,
+    "Local_Purchasing_Power_Index": 21.67,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Singapore",
+    "Cost_of_Living_Index": 81.1,
+    "Rent_Index": 63.27,
+    "Cost_of_Living_Plus_Rent_Index": 72.58,
+    "Groceries_Index": 66.75,
+    "Restaurant_Price_Index": 58.99,
+    "Local_Purchasing_Power_Index": 88.96,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Slovakia",
+    "Cost_of_Living_Index": 44.46,
+    "Rent_Index": 16.11,
+    "Cost_of_Living_Plus_Rent_Index": 30.9,
+    "Groceries_Index": 37.51,
+    "Restaurant_Price_Index": 33.82,
+    "Local_Purchasing_Power_Index": 56.94,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Slovenia",
+    "Cost_of_Living_Index": 53.43,
+    "Rent_Index": 17.09,
+    "Cost_of_Living_Plus_Rent_Index": 36.05,
+    "Groceries_Index": 43.76,
+    "Restaurant_Price_Index": 45.43,
+    "Local_Purchasing_Power_Index": 66.31,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Somalia",
+    "Cost_of_Living_Index": 38.68,
+    "Rent_Index": 4.75,
+    "Cost_of_Living_Plus_Rent_Index": 22.45,
+    "Groceries_Index": 45.88,
+    "Restaurant_Price_Index": 27.04,
+    "Local_Purchasing_Power_Index": 33.24,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "South Africa",
+    "Cost_of_Living_Index": 42.87,
+    "Rent_Index": 16.61,
+    "Cost_of_Living_Plus_Rent_Index": 30.31,
+    "Groceries_Index": 33.29,
+    "Restaurant_Price_Index": 40.58,
+    "Local_Purchasing_Power_Index": 73.61,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "South Korea",
+    "Cost_of_Living_Index": 78.18,
+    "Rent_Index": 22.86,
+    "Cost_of_Living_Plus_Rent_Index": 51.72,
+    "Groceries_Index": 91.31,
+    "Restaurant_Price_Index": 44.87,
+    "Local_Purchasing_Power_Index": 85.21,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Spain",
+    "Cost_of_Living_Index": 53.77,
+    "Rent_Index": 21.77,
+    "Cost_of_Living_Plus_Rent_Index": 38.46,
+    "Groceries_Index": 42.38,
+    "Restaurant_Price_Index": 52.07,
+    "Local_Purchasing_Power_Index": 72.03,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Sri Lanka",
+    "Cost_of_Living_Index": 31.61,
+    "Rent_Index": 7.74,
+    "Cost_of_Living_Plus_Rent_Index": 20.2,
+    "Groceries_Index": 35.09,
+    "Restaurant_Price_Index": 18.76,
+    "Local_Purchasing_Power_Index": 24.45,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Suriname",
+    "Cost_of_Living_Index": 43.14,
+    "Rent_Index": 7.79,
+    "Cost_of_Living_Plus_Rent_Index": 26.23,
+    "Groceries_Index": 45.78,
+    "Restaurant_Price_Index": 34.98,
+    "Local_Purchasing_Power_Index": 22.39,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Sweden",
+    "Cost_of_Living_Index": 69.85,
+    "Rent_Index": 25.9,
+    "Cost_of_Living_Plus_Rent_Index": 48.83,
+    "Groceries_Index": 60.47,
+    "Restaurant_Price_Index": 72.35,
+    "Local_Purchasing_Power_Index": 101.73,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Switzerland",
+    "Cost_of_Living_Index": 122.4,
+    "Rent_Index": 50.25,
+    "Cost_of_Living_Plus_Rent_Index": 87.89,
+    "Groceries_Index": 120.27,
+    "Restaurant_Price_Index": 123.01,
+    "Local_Purchasing_Power_Index": 119.53,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Syria",
+    "Cost_of_Living_Index": 25.31,
+    "Rent_Index": 5.68,
+    "Cost_of_Living_Plus_Rent_Index": 15.92,
+    "Groceries_Index": 22.42,
+    "Restaurant_Price_Index": 21.38,
+    "Local_Purchasing_Power_Index": 11.46,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Taiwan",
+    "Cost_of_Living_Index": 61.37,
+    "Rent_Index": 16.42,
+    "Cost_of_Living_Plus_Rent_Index": 39.87,
+    "Groceries_Index": 71.51,
+    "Restaurant_Price_Index": 28.49,
+    "Local_Purchasing_Power_Index": 65.67,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Tanzania",
+    "Cost_of_Living_Index": 35.25,
+    "Rent_Index": 14.04,
+    "Cost_of_Living_Plus_Rent_Index": 25.11,
+    "Groceries_Index": 29.66,
+    "Restaurant_Price_Index": 22.57,
+    "Local_Purchasing_Power_Index": 17.58,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Thailand",
+    "Cost_of_Living_Index": 49.77,
+    "Rent_Index": 17.1,
+    "Cost_of_Living_Plus_Rent_Index": 34.14,
+    "Groceries_Index": 49.2,
+    "Restaurant_Price_Index": 24.9,
+    "Local_Purchasing_Power_Index": 35.45,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Trinidad And Tobago",
+    "Cost_of_Living_Index": 53.7,
+    "Rent_Index": 17.26,
+    "Cost_of_Living_Plus_Rent_Index": 36.27,
+    "Groceries_Index": 49.43,
+    "Restaurant_Price_Index": 49.83,
+    "Local_Purchasing_Power_Index": 45.7,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Tunisia",
+    "Cost_of_Living_Index": 27.04,
+    "Rent_Index": 5.51,
+    "Cost_of_Living_Plus_Rent_Index": 16.74,
+    "Groceries_Index": 25.25,
+    "Restaurant_Price_Index": 14.95,
+    "Local_Purchasing_Power_Index": 34.45,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Turkey",
+    "Cost_of_Living_Index": 34.69,
+    "Rent_Index": 6.78,
+    "Cost_of_Living_Plus_Rent_Index": 21.34,
+    "Groceries_Index": 29.76,
+    "Restaurant_Price_Index": 24.16,
+    "Local_Purchasing_Power_Index": 40.85,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Uganda",
+    "Cost_of_Living_Index": 30.18,
+    "Rent_Index": 10.15,
+    "Cost_of_Living_Plus_Rent_Index": 20.6,
+    "Groceries_Index": 25.25,
+    "Restaurant_Price_Index": 22.14,
+    "Local_Purchasing_Power_Index": 20.5,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Ukraine",
+    "Cost_of_Living_Index": 33.18,
+    "Rent_Index": 10.46,
+    "Cost_of_Living_Plus_Rent_Index": 22.31,
+    "Groceries_Index": 26.01,
+    "Restaurant_Price_Index": 26.42,
+    "Local_Purchasing_Power_Index": 31.8,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Cost_of_Living_Index": 61.98,
+    "Rent_Index": 41.07,
+    "Cost_of_Living_Plus_Rent_Index": 51.98,
+    "Groceries_Index": 47.63,
+    "Restaurant_Price_Index": 61.32,
+    "Local_Purchasing_Power_Index": 91.58,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "United Kingdom",
+    "Cost_of_Living_Index": 67.28,
+    "Rent_Index": 29.85,
+    "Cost_of_Living_Plus_Rent_Index": 49.38,
+    "Groceries_Index": 51.27,
+    "Restaurant_Price_Index": 74.13,
+    "Local_Purchasing_Power_Index": 91.73,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "United States of America",
+    "Cost_of_Living_Index": 71.05,
+    "Rent_Index": 40.32,
+    "Cost_of_Living_Plus_Rent_Index": 56.36,
+    "Groceries_Index": 66.61,
+    "Restaurant_Price_Index": 70.74,
+    "Local_Purchasing_Power_Index": 109.52,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Uruguay",
+    "Cost_of_Living_Index": 51.04,
+    "Rent_Index": 14.43,
+    "Cost_of_Living_Plus_Rent_Index": 33.53,
+    "Groceries_Index": 40.12,
+    "Restaurant_Price_Index": 47.41,
+    "Local_Purchasing_Power_Index": 37.46,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Uzbekistan",
+    "Cost_of_Living_Index": 26.01,
+    "Rent_Index": 7.54,
+    "Cost_of_Living_Plus_Rent_Index": 17.18,
+    "Groceries_Index": 21.59,
+    "Restaurant_Price_Index": 20.17,
+    "Local_Purchasing_Power_Index": 24.31,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Venezuela",
+    "Cost_of_Living_Index": 27.17,
+    "Rent_Index": 6.81,
+    "Cost_of_Living_Plus_Rent_Index": 17.43,
+    "Groceries_Index": 28.29,
+    "Restaurant_Price_Index": 24.41,
+    "Local_Purchasing_Power_Index": 2.61,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Vietnam",
+    "Cost_of_Living_Index": 38.34,
+    "Rent_Index": 13.57,
+    "Cost_of_Living_Plus_Rent_Index": 26.5,
+    "Groceries_Index": 37.06,
+    "Restaurant_Price_Index": 19.59,
+    "Local_Purchasing_Power_Index": 28.14,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Zambia",
+    "Cost_of_Living_Index": 31.72,
+    "Rent_Index": 7.39,
+    "Cost_of_Living_Plus_Rent_Index": 20.08,
+    "Groceries_Index": 26.86,
+    "Restaurant_Price_Index": 22.07,
+    "Local_Purchasing_Power_Index": 54.14,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Zimbabwe",
+    "Cost_of_Living_Index": 55.3,
+    "Rent_Index": 11.02,
+    "Cost_of_Living_Plus_Rent_Index": 34.12,
+    "Groceries_Index": 50.8,
+    "Restaurant_Price_Index": 40.79,
+    "Local_Purchasing_Power_Index": 26.03,
+    "Continent": "Africa"
+  }
+]
