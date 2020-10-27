@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 300,
-  "height": 150,
+  "width": 400,
+  "height": 250,
   "data": {
     "url": "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/data/Cost%20of%20living%20index%20by%20country%202020.csv"
   },
