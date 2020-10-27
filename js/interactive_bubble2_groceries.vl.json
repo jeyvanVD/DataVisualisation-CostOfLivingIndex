@@ -1,0 +1,111 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 350,
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/data/Cost%20of%20living%20index%20by%20country%202020.csv"
+  },
+  "params": [
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "labels": [
+          "Show All",
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "name": "Continent : "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Local Purchasing Power Index",
+      "type": "quantitative",
+      "axis": {"tickCount": 6},
+      "scale": {"type": "linear", "domain": [1, 125]}
+    },
+    "y": {
+      "field": "Groceries Index",
+      "type": "quantitative",
+      "axis": {"tickCount": 6},
+      "scale": {"type": "linear", "domain": [1, 125]}
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Cost of Living Index",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [20, 50, 80, 100],
+            "range": [50, 150, 200, 300, 400]
+          }
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Africa",
+              "Asia",
+              "Europe",
+              "North America",
+              "Oceania",
+              "South America"
+            ],
+            "range": [
+              "#4c78a8",
+              "#f58618",
+              "#e45756",
+              "#72b7b2",
+              "#54a24b",
+              "#f0d154"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Cost of Living Index", "type": "quantitative"},
+          {"field": "Cost of Living Plus Rent Index", "type": "quantitative"},
+          {"field": "Local Purchasing Power Index", "type": "quantitative"},
+          {"field": "Groceries Index", "type": "quantitative"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
