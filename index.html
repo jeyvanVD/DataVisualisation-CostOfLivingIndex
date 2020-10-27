@@ -110,13 +110,13 @@
             var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/cost_of_living_index.vl.json";
             var bubble_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble.vl.json";
             var contour_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz.vl.json"
-            vegaEmbed('#vis', spec).then(function(result) {
+            vegaEmbed('#vis', spec, {"actions":false}).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
-            vegaEmbed('#bubble1', bubble_1).then(function(result) {
+            vegaEmbed('#bubble1', bubble_1, {"actions":false}).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
-            vegaEmbed('#contour1', contour_1).then(function(result) {
+            vegaEmbed('#contour1', contour_1, {"actions":false}).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
         </script>
