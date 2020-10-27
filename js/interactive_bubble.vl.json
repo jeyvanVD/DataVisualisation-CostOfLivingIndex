@@ -12,21 +12,21 @@
         "input": "select",
         "options": [
           null,
-          "North America",
-          "South America",
-          "Europe",
           "Africa",
           "Asia",
-          "Oceania"
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
         ],
         "labels": [
           "Show All",
-          "North America",
-          "South America",
-          "Europe",
           "Africa",
           "Asia",
-          "Oceania"
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
         ],
         "name": "Continent : "
       }
@@ -76,20 +76,20 @@
           "type": "nominal",
           "scale": {
             "domain": [
-              "North America",
-              "South America",
-              "Europe",
               "Africa",
               "Asia",
-              "Oceania"
+              "Europe",
+              "North America",
+              "Oceania",
+              "South America"
             ],
             "range": [
-              "#e41a1c",
-              "#984ea3",
-              "#ff7f00",
-              "#a6cee3",
-              "#377eb8",
-              "#a65628"
+              "#4c78a8",
+              "#f58618",
+              "#e45756",
+              "#72b7b2",
+              "#54a24b",
+              "#f0d154"
             ]
           },
           "sort":"ascending"
