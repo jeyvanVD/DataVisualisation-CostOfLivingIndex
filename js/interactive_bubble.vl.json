@@ -39,13 +39,13 @@
   ],
   "encoding": {
     "x": {
-      "field": "Groceries Index",
+      "field": "Local Purchasing Power Index",
       "type": "quantitative",
       "axis": {"tickCount": 6},
       "scale": {"type": "linear", "domain": [1, 125]}
     },
     "y": {
-      "field": "Local Purchasing Power Index",
+      "field": "Restaurant Price Index",
       "type": "quantitative",
       "axis": {"tickCount": 6},
       "scale": {"type": "linear", "domain": [1, 125]}
@@ -103,7 +103,7 @@
           {"field": "Cost of Living Index", "type": "quantitative"},
           {"field": "Cost of Living Plus Rent Index", "type": "quantitative"},
           {"field": "Local Purchasing Power Index", "type": "quantitative"},
-          {"field": "Groceries Index", "type": "quantitative"}
+          {"field": "Restaurant Price Index", "type": "quantitative"}
         ]
       }
     }
