@@ -25,6 +25,9 @@
     "color": {
       "field": "Cost of Living Index",
       "type": "quantitative",
+      "legend":{
+        "orient":"bottom"
+      },
       "scale": {
         "type": "threshold",
         "domain": [25, 50, 75, 100],
