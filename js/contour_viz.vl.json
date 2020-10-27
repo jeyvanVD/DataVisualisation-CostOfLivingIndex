@@ -98,7 +98,7 @@
       "title": "Restaurant Price Index"
     }
   ],
-  "legends": [{"stroke": "color", "symbolType": "stroke"}],
+  "legends": [{"title":"Continent","stroke": "color", "symbolType": "circle"}],
   "marks": [
     {
       "name": "marks",
