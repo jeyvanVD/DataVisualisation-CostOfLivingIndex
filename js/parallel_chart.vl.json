@@ -6,6 +6,7 @@
   },
   "width": 850,
   "height": 375,
+  "background":"whitesmoke",
   "transform": [
     {"filter": "datum['Cost_of_Living_Index']"},
     {"window": [{"op": "count", "as": "index"}]},
