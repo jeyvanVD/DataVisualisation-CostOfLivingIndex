@@ -1,185 +1,207 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
 
-        <title>Cost of Living Index Among Countries</title>
+      <title>Cost of Living Index Among Countries</title>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-        <!-- Import pure.css -->
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+      <!-- Import pure.css -->
+      <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;800;900&display=swap" rel="stylesheet">
 
-    </head>
+  </head>
 
-    <style>
-        *{
-          color: darkslategray;
-          font-family: 'Source Sans Pro', sans-serif;
-          font-weight: 400;
-        }
-        h1{
-          margin-top: 50px;
-          font-size: 54px;
-          font-weight: 900;
-          margin-bottom: 50px;
-        }
-         body{
-           width: 1200px;    
-           background-color: whitesmoke;   
-           margin: auto;
-           padding: 50px;
-           padding-top: 35px;
-        }
-        .vis-container{
-          width: 80%;
-        }
-        .description h2, h1{
-          margin-top:0px;
-        }
-        .description-right {
-          padding-left: 0px;
-          text-align: justify;
-        }
-        .description-left{
-          padding-right: 0px;
-          text-align: justify;
-        }
-        .pure-g{
-          margin-bottom: 25px;
-        }
-        .small-font{
-            font-size: 14px;
-        }
-        .pure-change{
-          margin-right: -150px;
-        }
-    </style>
+  <style>
+      *{
+        color: darkslategray;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+      }
+      h1{
+        margin-top: 50px;
+        font-size: 54px;
+        font-weight: 900;
+        margin-bottom: 50px;
+      }
+        body{
+          width: 1200px;    
+          background-color: whitesmoke;   
+          margin: auto;
+          padding: 50px;
+          padding-top: 35px;
+      }
+      .vis-container{
+        width: 80%;
+      }
+      .description h2, h1{
+        margin-top:0px;
+      }
+      .description-right {
+        padding-left: 0px;
+        text-align: justify;
+      }
+      .description-left{
+        padding-right: 0px;
+        text-align: justify;
+      }
+      .pure-g{
+        margin-bottom: 25px;
+      }
+      .small-font{
+          font-size: 14px;
+      }
+      .pure-change{
+        margin-right: -150px;
+      }
+  </style>
 
-    <body>
+  <body>
 
-        <!-- pure grid group -->
-        <div class="pure-g">
-            <div class="pure-u-1-1">
-              <h1 id="title_text">How EXPENSIVE is YOUR COUNTRY?</h1>
-            <div id="intro">
-              <span id="intro_text" style="font-size: 16px;">
-                Living in the 21st century is not easy nor it is cheap. We have to pay for our food, rent, bills, groceries, and many other thing in a daily basis, and how many of us ask the<br>
-                exact same question each time,
-              </span>
-              <span id="intro_quest" style="font-size: 20px; font-weight: 600;">"WHY is EVERYTHING SO EXPENSIVE?"</span>
-            </div>
-            <div id="paragraph2" style="font-size: 16px; margin-top: 25px;">
-              <span>Derived from</span>
-              <span style="font-weight: 600;">Numbeo's "Cost of Living Index by Country 2020"</span>
-              <span>, this study could show you how expensive your country is, in terms of  </span>
-              <span style="font-weight: 600;">cost of living, local purchasing power, restaurant price, groceries, and rent</span>
-              <span> with percentage values in comparison to </span>
-              <span style="font-weight: 600;">New York City, USA.</span>
-
-            </div>
-            </div>
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h1 id="title_text">How EXPENSIVE is YOUR COUNTRY?</h1>
+          <div id="intro">
+            <span id="intro_text" style="font-size: 16px;">
+              Living in the 21st century is not easy nor it is cheap. We have to pay for our food, rent, bills, groceries, and many other thing in a daily basis, and how many of us ask the<br>
+              exact same question each time,
+            </span>
+            <span id="intro_quest" style="font-size: 20px; font-weight: 600;">"WHY is EVERYTHING SO EXPENSIVE?"</span>
+          </div>
+          <div id="paragraph2" style="font-size: 16px; margin-top: 25px;">
+            <span>Derived from</span>
+            <span style="font-weight: 600;">Numbeo's "Cost of Living Index by Country 2020"</span>
+            <span>, this study could show you how expensive your country is, in terms of  </span>
+            <span style="font-weight: 600;">cost of living, local purchasing power, restaurant price, groceries, and rent</span>
+            <span> with </span>
+            <span style="font-weight: 600;">percentage values </span>
+            <span>in comparison to </span>
+            <span style="font-weight: 600;">New York City, USA.</span>
+          </div>
         </div>
-        <!-- end pure grid group -->
+    </div>
     
-        <!-- pure grid group -->
-        <div class="pure-g">
-            <div class="pure-u-2-3" >
-                <div id="vis" style="left: 50px;"></div>
-            </div>
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="line1" style="margin-top: 25px; margin-bottom: 25px;">
+          <span style="font-size: 36px; font-weight: 600;">Can you spot </span>
+          <span style="font-size: 36px; font-weight: 800;">YOUR COUNTRY?</span>
         </div>
-        <!-- end pure grid group -->
-    
-        <!-- pure grid group -->
-        <div class="pure-g">
-            <div class="pure-u-2-3 pure-change">
-                <div id="bubble1"  class="vis-container"></div>
-            </div>
-            <div class="pure-u-1-3">
-              <div id="contour1"  class="vis-container"></div>
-          </div>
-        </div>
-        <!-- end pure grid group -->
-
-        <!-- pure grid group -->        
-        <div class="pure-g">
-          <div class="pure-u-2-3 pure-change">
-            <div id="contour2"  class="vis-container"></div>
-          </div>
-          <div class="pure-u-1-3">            
-            <div id="bubble2"  class="vis-container"></div>
-          </div>
-        </div>  
-        <!-- end pure grid group -->
-
-        <!-- pure grid group -->              
-        <div class="pure-g">
-          <div class="pure-u-2-3 pure-change">
-              <div id="bubble3"  class="vis-container"></div>
-          </div>
-          <div class="pure-u-1-3">
-            <div id="contour3"  class="vis-container"></div>
-          </div>
-        </div>
-        <!-- end pure grid group -->
-
-        <!-- pure grid group -->              
-        <div class="pure-g">
-          <div class="pure-u-2-3" >
-              <div id="parallel" style="left: 125px; top: 25px;"></div>
-          </div>
-        </div>
-        <!-- end pure grid group -->
-
       </div>
-      <!-- end pure grid group -->
+    </div>
+    <div class="pure-g">
+        <div class="pure-u-2-3" >
+            <div id="vis" style="left: 50px;"></div>
+        </div>
+    </div>
+    
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="line2" style="margin-top: 25px; margin-bottom: 25px;">
+          <span style="font-size: 36px; font-weight: 600;">But what about the </span>
+          <span style="font-size: 36px; font-weight: 800;">RESTAURANT PRICE?</span>
+        </div>
+      </div>
+    </div>
+    <div class="pure-g">
+        <div class="pure-u-2-3 pure-change">
+            <div id="bubble1"  class="vis-container"></div>
+        </div>
+        <div class="pure-u-1-3">
+          <div id="contour1"  class="vis-container"></div>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="line3" style="margin-top: 25px; margin-bottom: 25px;">
+          <span style="font-size: 36px; font-weight: 600;">And who likes doing </span>
+          <span style="font-size: 36px; font-weight: 800;">GROCERIES?</span>
+        </div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-2-3 pure-change">
+        <div id="contour2"  class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-3">            
+        <div id="bubble2"  class="vis-container"></div>
+      </div>
+    </div>  
+
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="line4" style="margin-top: 25px; margin-bottom: 25px;">
+          <span style="font-size: 36px; font-weight: 600;">Finally, it is time to pay </span>
+          <span style="font-size: 36px; font-weight: 800;">RENT.</span>
+        </div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-2-3 pure-change">
+          <div id="bubble3"  class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-3">
+        <div id="contour3"  class="vis-container"></div>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="line3" style="margin-top: 25px; margin-bottom: 25px;">
+          <span style="font-size: 36px; font-weight: 800;">OVERALL</span>
+          <span style="font-size: 36px; font-weight: 600;">, the trend based on the Continents.</span>
+        </div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-2-3" >
+          <div id="parallel" style="left: 125px; top: 25px;"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+        var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/cost_of_living_index.vl.json";
+        var bubble_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble.vl.json";
+        var contour_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz.vl.json";
+        var bubble_2 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble2_groceries.vl.json";
+        var contour_2 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz2_groceries.vl.json";
+        var bubble_3 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble3_rent.vl.json";
+        var contour_3 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz3_rent.vl.json";
+        var parallel = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/parallel_chart.vl.json";
+
+        vegaEmbed('#vis', spec, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#bubble1', bubble_1, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#bubble2', bubble_2, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#bubble3', bubble_3, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#contour1', contour_1, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#contour2', contour_2, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#contour3', contour_3, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        vegaEmbed('#parallel', parallel, {"actions":false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
 
 
-
-    </div> <!-- end page -->
-
-        <script type="text/javascript">
-            var spec = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/cost_of_living_index.vl.json";
-            var bubble_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble.vl.json";
-            var contour_1 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz.vl.json";
-            var bubble_2 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble2_groceries.vl.json";
-            var contour_2 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz2_groceries.vl.json";
-            var bubble_3 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/interactive_bubble3_rent.vl.json";
-            var contour_3 = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/contour_viz3_rent.vl.json";
-            var parallel = "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/js/parallel_chart.vl.json";
-
-            vegaEmbed('#vis', spec, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#bubble1', bubble_1, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#bubble2', bubble_2, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#bubble3', bubble_3, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#contour1', contour_1, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#contour2', contour_2, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#contour3', contour_3, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-            vegaEmbed('#parallel', parallel, {"actions":false}).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-        </script>
-
-
-    </body>
+  </body>
 </html>
