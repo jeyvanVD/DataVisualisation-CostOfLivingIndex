@@ -4,7 +4,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/jeyvanVD/FIT3179/master/data/cost_of_living_index.json"
   },
-  "width": 750,
+  "width": 850,
   "height": 375,
   "transform": [
     {"filter": "datum['Cost_of_Living_Index']"},
